@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Templates | AI Tool Compare</title>
+    <meta name="description" content="Notion templates and PDF guides to compare AI tools and optimize costs. Stop overpaying for AI.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        dark: { 900: '#0a0a0f', 800: '#12121a', 700: '#1a1a25', 600: '#252535' },
+                        accent: { 400: '#6366f1', 500: '#4f46e5', 600: '#4338ca' }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-dark-900 text-gray-100 font-sans antialiased">
+
+    <nav class="fixed top-0 w-full bg-dark-900/95 backdrop-blur-sm border-b border-dark-700 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+            <a href="/index.html" class="text-xl font-bold bg-gradient-to-r from-accent-400 to-purple-400 bg-clip-text text-transparent">AI Tool Compare</a>
+            <div class="hidden md:flex items-center gap-6 text-sm">
+                <a href="/index.html" class="hover:text-accent-400 transition">Home</a>
+                <a href="/blog/index.html" class="hover:text-accent-400 transition">Blog</a>
+                <a href="/templates/index.html" class="text-accent-400 font-medium">Templates</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="pt-32 pb-16 px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <h1 class="text-4xl font-bold mb-4">Templates & Guides</h1>
+            <p class="text-gray-400 text-lg">Practical tools to save you time and money on AI.</p>
+        </div>
+    </section>
+
+    <section class="pb-16 px-4">
+        <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-6">
+
+            <div class="bg-dark-800 rounded-xl border border-dark-700 overflow-hidden">
+                <div class="bg-accent-500/20 p-6">
+                    <div class="text-sm text-accent-400 font-medium mb-2">Notion + PDF</div>
+                    <h3 class="text-xl font-bold">LLM API Cost Optimizer</h3>
+                </div>
+                <div class="p-6">
+                    <p class="text-gray-400 text-sm mb-4">Complete pricing comparison, cost calculator, and 10 proven strategies to cut your AI API costs by up to 70%.</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-2xl font-bold">$29</span>
+                        <a href="/templates/llm-api-cost-optimizer.html" class="bg-accent-500 hover:bg-accent-600 px-4 py-2 rounded-lg font-medium transition text-sm">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-dark-800 rounded-xl border border-dark-700 overflow-hidden">
+                <div class="bg-purple-500/20 p-6">
+                    <div class="text-sm text-purple-400 font-medium mb-2">Notion Template</div>
+                    <h3 class="text-xl font-bold">AI Coding Assistant Guide</h3>
+                </div>
+                <div class="p-6">
+                    <p class="text-gray-400 text-sm mb-4">Cursor vs Copilot vs Claude Code — full comparison, cost analysis, and which one to choose for your use case.</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-2xl font-bold">$14</span>
+                        <a href="/templates/ai-coding-assistant-guide.html" class="bg-purple-500 hover:bg-purple-600 px-4 py-2 rounded-lg font-medium transition text-sm">Coming Soon</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="border-t border-dark-700 py-8 px-4">
+        <div class="max-w-4xl mx-auto text-center text-sm text-gray-500">
+            <p>© 2025 AI Tool Compare</p>
+        </div>
+    </footer>
+
+</body>
+</html>
